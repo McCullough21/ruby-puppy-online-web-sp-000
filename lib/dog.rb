@@ -3,14 +3,15 @@ class Dog
 
   @@all = []
 
- attr_accessor :name
 
   def initialize(name)
     @name = name
     @@all << self.name
   end
 # binding.pry
-
+def name
+  @name
+end
   def self.all
     @@all
   end
