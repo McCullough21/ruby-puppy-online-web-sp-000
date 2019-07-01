@@ -4,7 +4,7 @@ class Dog
 
  attr_accessor :name
 
-  def intialize(name)
+  def intialize("name")
     @name = name
      ALL << name
   end
