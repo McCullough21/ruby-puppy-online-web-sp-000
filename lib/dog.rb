@@ -8,7 +8,7 @@ attr_reader :name
     @@all << self
   end
 
-  def self.all?
+  def self.all
     @@all
   end
 
