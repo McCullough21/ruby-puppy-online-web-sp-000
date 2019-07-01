@@ -7,7 +7,7 @@ attr_writer :name
 
   def initialize(name)
     @name = name
-    @@all << self.name
+    @@all << @name
   end
 # binding.pry
 def name
