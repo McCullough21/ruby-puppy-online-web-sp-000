@@ -19,7 +19,7 @@ attr_accessor :name
   end
   def self.print_all
     @@all.each do |name|
-      puts "#{name.flatten}"
+      puts "#{name.strip}"
     end
   end
 
